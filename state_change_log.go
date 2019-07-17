@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/audited"
-	"github.com/qor/qor/resource"
-	"github.com/qor/roles"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/audited"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/roles"
 )
 
 // StateChangeLog a model that used to keep state change logs

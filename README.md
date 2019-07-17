@@ -4,7 +4,7 @@ Transition is a [Golang](http://golang.org/) [*state machine*](https://en.wikipe
 
 it can be used standalone, but it integrates nicely with [GORM](https://github.com/jinzhu/gorm) models. When integrated with [GORM](https://github.com/jinzhu/gorm), it will also store state change logs in the database automatically.
 
-[![GoDoc](https://godoc.org/github.com/qor/transition?status.svg)](https://godoc.org/github.com/qor/transition)
+[![GoDoc](https://godoc.org/github.com/kisrobot/transition?status.svg)](https://godoc.org/github.com/kisrobot/transition)
 
 # Usage
 
@@ -13,7 +13,7 @@ it can be used standalone, but it integrates nicely with [GORM](https://github.c
 Embed `transition.Transition` into your struct, it will enable the state machine feature for the struct:
 
 ```go
-import "github.com/qor/transition"
+import "github.com/kisrobot/transition"
 
 type Order struct {
   ID uint

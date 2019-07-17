@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor/resource"
-	"github.com/qor/roles"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/roles"
 )
 
 // Transition is a struct, embed it in your struct to enable state machine for the struct
